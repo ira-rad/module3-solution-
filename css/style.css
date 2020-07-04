@@ -17,15 +17,12 @@
     margin-bottom: 15px;
     margin-right: 20px;
 }
-.nav-link{
-    text-align: center;
-    
-}
+
 .nav-item{
     border-top: 1px solid #000;
 }
 .nav__menu{
-    background-color: wheat;
+    background-color: rgb(177, 153, 110);
 
 }
 .navbar-light .navbar-nav .nav-link {
@@ -37,7 +34,6 @@
 }
 .tittle{
     margin-top: 20px;
-    
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 35px;
@@ -47,9 +43,12 @@ margin: 0 auto;
 background-color: bisque;
 padding-top: 8px;
 margin-bottom: 50px;
+min-height: 1000px;
 
 }
-
+.beef{
+background-color: rgba(230, 204, 173, 0.404);
+}
 .main-row{
     padding: 0px 15px;
 }
@@ -67,6 +66,9 @@ margin-bottom: 50px;
 
             padding: 0px;
         }
+        .navbar-brand{
+            margin-left: 25px;
+        }
 }
 @media (min-width: 576px) {
     .nav-row{
@@ -77,27 +79,3 @@ border: 1px solid black;
 
 
 
-/*@media (min-width: 768px) {
-  .navbar-container {
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-    height: 100vh;
-  }
-  .navbar-container .navbar {
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    height: 100%;
-  }
-  .navbar-container .navbar-collapse {
-    align-items: flex-start;
-  }
-  .navbar-container .nav {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .navbar-container .navbar-nav {
-    flex-direction: column !important;
-  }
