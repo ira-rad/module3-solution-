@@ -44,6 +44,7 @@ background-color: bisque;
 padding-top: 8px;
 margin-bottom: 50px;
 min-height: 1000px;
+padding: 8px;
 
 }
 .beef{
@@ -56,10 +57,9 @@ background-color: rgba(230, 204, 173, 0.404);
     font-size: 21px;
     font-weight: bold;
 }
-@media (max-width: 576px) {
-    .navbar.navbar-expand-sm.navbar-light{
-        padding-left:0px;
-        padding-right: 0px;
+@media (max-width: 768px) {
+    .navbar.navbar-expand-md.navbar-light{
+        padding: 0px;
         padding-bottom: 0px;
         }
         .navigation{
@@ -70,7 +70,7 @@ background-color: rgba(230, 204, 173, 0.404);
             margin-left: 25px;
         }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .nav-row{
 border: 1px solid black;
 
